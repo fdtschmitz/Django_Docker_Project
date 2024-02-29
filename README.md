@@ -272,6 +272,4 @@ Com o servidor ativo, acesse novamente [http://localhost:8000/](http://localhost
 
 ### Conclusão
 
-Neste artigo foi abordado como criar um container docker de um sistema django. Você pode acessar os arquivos deste artigo em meu [Github](https://github.com/fdtschmitz/Django_Docker_Project).
-
-É inegável o poder e versatilidade de utilização de containers para aplicações. Espero que este artigo seja útil de alguma forma e possa contribuir com seus estudos.
+Neste artigo foi abordado como criar um container docker de um sistema django. É inegável o poder e versatilidade de utilização de containers para aplicações. Espero que este artigo seja útil de alguma forma e possa contribuir com seus estudos.
