@@ -1,7 +1,5 @@
 # Criando um container Docker de um sistema Django
-<aside>
-For english version, click [here](README-en.md)
-</aside>
+> For english version, click [here](https://github.com/fdtschmitz/Django_Docker_Project/blob/main/README-en.md)
 
 ### Por que eu deveria criar um container dos meus apps?
 
@@ -96,10 +94,7 @@ Com o arquivo YAML criado, o proximo passo é criar o projeto Django utilizando 
 docker-compose run web django-admin startproject projectDjango .
 ```
 
-<aside>
-<img src="https://www.notion.so/icons/new-alert_red.svg" alt="https://www.notion.so/icons/new-alert_red.svg" width="40px" /> Observe que há um espaço e um ponto no final do comando. Isso representa a raiz de instalação do diretório do projeto. Caso não seja incluso, o docker irá criar uma nova pasta para este projeto.
-
-</aside>
+> <img src="https://www.notion.so/icons/new-alert_red.svg" alt="https://www.notion.so/icons/new-alert_red.svg" width="40px" /> Observe que há um espaço e um ponto no final do comando. Isso representa a raiz de instalação do diretório do projeto. Caso não seja incluso, o docker irá criar uma nova pasta para este projeto.
 
 Durante este processo o docker-compose irá baixar as imagens e dependências do projeto. Ao termino de execução do script você deverá visualizar a seguinte mensagem no terminal:
 
@@ -160,10 +155,7 @@ Após a atualização, se tudo correr bem, você deverá ver a seguinte mensagem
 
 ![Mensagem de conclusão](.source/img/06.png)
 
-<aside>
-<img src="https://www.notion.so/icons/thought-alert_blue.svg" alt="https://www.notion.so/icons/thought-alert_blue.svg" width="40px" /> Toda alteração que você vier a fazer no projeto será necessário atualizar a imagem docker. Para isso utilize o comando “docker-compose build” conforme apresentado.
-
-</aside>
+> <img src="https://www.notion.so/icons/thought-alert_blue.svg" alt="https://www.notion.so/icons/thought-alert_blue.svg" width="40px" /> Toda alteração que você vier a fazer no projeto será necessário atualizar a imagem docker. Para isso utilize o comando “docker-compose build” conforme apresentado.
 
 ### Testando a aplicação
 
@@ -181,10 +173,7 @@ Isso significa que o servidor django está rodando e acessível em [http://local
 
 ![Django instalado com sucesso](.source/img/08.png)
 
-<aside>
-🐳 Importante mencionar que esta aplicação está rodando dentro de uma imagem docker e sendo acessada a partir da porta 8000, conforme configuramos.
-
-</aside>
+> 🐳 Importante mencionar que esta aplicação está rodando dentro de uma imagem docker e sendo acessada a partir da porta 8000, conforme configuramos.
 
 ### Criando um App no Docker
 
