@@ -1,7 +1,5 @@
 # Creating a Docker Container for a Django System
-<aside>
-Para versão em português, clique [aqui](README.md)
-</aside>
+> Para versão em português, clique [aqui](https://github.com/fdtschmitz/Django_Docker_Project/blob/main/README.md)
 
 ### Why should I create a container for my apps?
 
@@ -94,9 +92,7 @@ With the YAML file created, the next step is to create the Django project using 
 docker-compose run web django-admin startproject projectDjango .
 ```
 
-<aside>
-<img src="https://www.notion.so/icons/new-alert_red.svg" alt="https://www.notion.so/icons/new-alert_red.svg" width="40px" /> Note the space and a dot at the end of the command. This represents the root installation of the project directory. If not included, Docker will create a new folder for this project.
-</aside>
+> <img src="https://www.notion.so/icons/new-alert_red.svg" alt="https://www.notion.so/icons/new-alert_red.svg" width="40px" /> Note the space and a dot at the end of the command. This represents the root installation of the project directory. If not included, Docker will create a new folder for this project.
 
 During this process, the docker-compose will download the project's images and dependencies. Upon completion of the script, you should see the following message in the terminal:
 
@@ -157,9 +153,7 @@ After the update, if everything goes well, you should see the following message 
 
 ![Completion message](.source/img/06.png)
 
-<aside>
-<img src="https://www.notion.so/icons/thought-alert_blue.svg" alt="https://www.notion.so/icons/thought-alert_blue.svg" width="40px" /> Any changes you make to the project will require updating the Docker image. To do this, use the command "docker-compose build" as presented.
-</aside>
+> <img src="https://www.notion.so/icons/thought-alert_blue.svg" alt="https://www.notion.so/icons/thought-alert_blue.svg" width="40px" /> Any changes you make to the project will require updating the Docker image. To do this, use the command "docker-compose build" as presented.
 
 ### Testing the application
 
@@ -177,9 +171,7 @@ This means that the Django server is running and accessible at [http://localhost
 
 ![Django successfully installed](.source/img/08.png)
 
-<aside>
-🐳 It's important to mention that this application is running inside a Docker container and being accessed through port 8000, as configured.
-</aside>
+> 🐳 It's important to mention that this application is running inside a Docker container and being accessed through port 8000, as configured.
 
 ### Creating an App in Docker
 
