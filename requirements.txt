@@ -1,0 +1,4 @@
+#Informa a versão do Django que será instalada.
+#Neste caso, maior que 3.0 e menor que 4.0
+Django>=3.0,<4.0
+psycopg2-binary>=2.8
